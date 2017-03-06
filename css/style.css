@@ -1,0 +1,100 @@
+/*Table of Contents
+CSS Reset
+Universal
+Header
+About Me
+My Skills
+Map
+My Experience
+Get in Touch*/
+
+/*CSS Reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px solid purple;*/
+}
+
+/*Universal*/
+body {
+  font-size: 1rem;
+  color: #333;
+  font-family: 'Arimo', sans-serif;
+}
+
+section, footer {
+  padding: 10vh 10vw;
+
+}
+
+.no-padding {
+  padding:0;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  color: #ff979a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: teal;
+}
+
+/*featured styling*/
+.featured{
+  background-color: lightblue
+}
+.featured .featured-box {
+  background-color: white;
+  padding: 10vh 10vw;
+}
+
+/*Typography*/
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Satisfy', cursive;
+  text-align:center;
+}
+
+h1{
+  font-size: 1.5rem;
+}
+h2{
+  font-size:2rem;
+}
+
+/*Header*/
+.top-banner{
+  background-image: url("../images/giphy.gif");
+  min-height:100vh;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: #343d98;
+  background-position: 50% 123%;
+  background-attachment: fixed;
+  color:#fff;
+
+}
+
+/*About Me*/
+
+/*My Skills*/
+
+/*Map*/
+
+/*My Experience*/
+.experience .fa{
+  font-size:1.8rem;
+  text-align:center;
+  color:#ff979a;
+}
+
+/*Get in Touch*/
+footer, footer a {
+  color:white;
+}
